@@ -9,6 +9,6 @@ public class Letter : DeliveryItem
 
     public override double CalculateCost()
     {
-        return 15 * (this.Weight * 10);
+        return 15 + (this.Weight * 10);
     }
 }
